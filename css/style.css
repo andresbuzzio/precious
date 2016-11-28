@@ -1,0 +1,134 @@
+/* CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+font-family: 'Montserrat', sans-serif !important;
+}
+
+section {
+padding: 4em 0;
+}
+
+section#two {
+padding: 3em 0 6em 0;
+}
+
+section#three {
+padding: 4em 0 6em 0;
+background: #e74c3c;
+}
+
+img {
+max-width: 100% !important;
+}
+
+h1 {
+color:#e74c3c!important;
+}
+
+h2 {
+color:#fff!important;
+}
+
+h1.featured {
+font-size: 3em;
+color:#e74c3c!important;
+text-align: center;
+padding-bottom: 1em;
+}
+
+h1.news {
+font-size: 3em;
+color:#fff!important;
+text-align: center;
+padding-bottom: 1em;
+}
+
+p {
+font-family: 'Lora', serif;
+}
+
+p.paragraph-margin {
+margin-top: 40px;
+}
+
+p.paragraph-white {
+color:#fff;
+text-align: justify;
+}
+
+.right-aligned {
+text-align: right;
+}
+
+.center-aligned {
+text-align: center;
+}
+
+.full-width {
+width:100%;
+}
+
+/* Overwrite Bootstrap */
+
+.navbar-default {
+padding: 20px 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+background: none !important;
+}
+
+.carousel-caption {
+font-size: 4em;
+letter-spacing: 4px;
+position: absolute;
+bottom: 36% !important;
+text-shadow: none !important; */
+}
+
+.rounded-image {
+float: left;
+width: 160px;
+height: 160px;
+border-radius: 50%;
+background: #fff;
+margin: 0 20px 20px 0;
+}
+
+.imageBackground {
+background-image: url("http://cdn.shopify.com/s/files/1/0386/4385/files/puddings_grande.jpg?v=1479199589");
+background-position: -270px -180px;
+}
+
+/*
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+display: none !important;
+}
+*/
+
+@media (max-width:768px) {
+  .navbar-default {
+  padding: 0;
+  }
+
+  .navbar-toggle {
+  border:0 !important;
+  }
+
+  .navbar-toggle {
+  background: none !important;
+  }
+
+  .carousel-caption {
+  font-size: 2em;
+  bottom: 30% !important;
+  }
+
+  .right-aligned {
+  text-align: center;
+  }
+}
